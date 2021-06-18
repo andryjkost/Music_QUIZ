@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFDFC">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar" />
+
+    <include
+        android:id="@+id/include5"
+        layout="@layout/user_menu_toolbar_2" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/new_but3"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_number"
+                style="@style/TextAppearance.AppCompat.Inverse"
+                android:layout_width="62dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center_vertical|end"
+                android:layout_weight="1"
+                android:background="@drawable/but_new_3"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="№"
+                android:textColor="#FFFFFDFC"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="297dp"
+                tools:layout_editor_absoluteY="7dp" />
+
+            <TextView
+                android:id="@+id/rv_users_item"
+                style="@style/TextAppearance.AppCompat.Inverse"
+                android:layout_width="236dp"
+                android:layout_height="43dp"
+                android:layout_gravity="center_vertical|start"
+                android:background="@drawable/but_new_3"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Name"
+                android:textColor="#FFFFFDFC"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="6dp" />
+
+            <TextView
+                android:id="@+id/tv_holder_users"
+                style="@style/TextAppearance.AppCompat.Inverse"
+                android:layout_width="74dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|end"
+                android:background="@drawable/but_new_3"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Points"
+                android:textColor="#FFFFFDFC"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="297dp"
+                tools:layout_editor_absoluteY="7dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_users"
+        android:layout_width="382dp"
+        android:layout_height="577dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/frame_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+</androidx.constraintlayout.widget.ConstraintLayout>

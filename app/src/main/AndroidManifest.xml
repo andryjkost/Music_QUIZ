@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pril">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".main_menu.Menu" />
+        <activity android:name=".Solo_game.SoloGame_menu" />
+        <activity android:name=".Solo_game.SoloGame_info" />
+        <activity android:name=".Solo_game.SoloGame_zero" />
+        <activity android:name=".Solo_game.First_level.SoloGame_first_1" />
+        <activity android:name=".Solo_game.First_level.SoloGame_first_2" />
+        <activity android:name=".Solo_game.First_level.SoloGame_first_3" />
+        <activity android:name=".Solo_game.First_level.SoloGame_first_4" />
+        <activity android:name=".Sett.Settings" />
+        <activity android:name=".Solo_game.First_level.SoloGame_first_5" />
+        <activity android:name=".Solo_game.SoloGame_itog" />
+        <activity android:name=".Solo_game.Second_level.SoloGame_second_1" />
+        <activity android:name=".Solo_game.Second_level.SoloGame_second_2" />
+        <activity android:name=".Solo_game.Second_level.SoloGame_second_3" />
+        <activity android:name=".Solo_game.Second_level.SoloGame_second_4" />
+        <activity android:name=".Solo_game.Second_level.SoloGame_second_5" />
+        <activity android:name=".Progress.Recycler_v" />
+        <activity android:name=".Progress.MyProgress" />
+        <activity android:name=".Solo_game.Third_level.SoloGame_3_1" />
+        <activity android:name=".Solo_game.Third_level.SoloGame_3_2" />
+        <activity android:name=".Solo_game.Third_level.SoloGame_3_3" />
+        <activity android:name=".Solo_game.Third_level.SoloGame_3_4" />
+        <activity android:name=".Solo_game.Third_level.SoloGame_3_5" />
+        <activity android:name=".Solo_game.Fourth_level.SoloGame_4_1" />
+        <activity android:name=".Solo_game.Fourth_level.SoloGame_4_2" />
+        <activity android:name=".Solo_game.Fourth_level.SoloGame_4_3" />
+        <activity android:name=".Solo_game.Fourth_level.SoloGame_4_4" />
+        <activity android:name=".Solo_game.Fourth_level.SoloGame_4_5" />
+        <activity android:name=".Solo_game.Hist_First_level.SoloGame_5_1" />
+        <activity android:name=".Solo_game.Hist_First_level.SoloGame_5_2" />
+        <activity android:name=".Solo_game.Hist_First_level.SoloGame_5_3" />
+        <activity android:name=".Solo_game.Hist_First_level.SoloGame_5_4" />
+        <activity android:name=".Solo_game.Hist_First_level.SoloGame_5_5" />
+        <activity android:name=".Solo_game.Hist_Second_level.SoloGame_6_1" />
+        <activity android:name=".Solo_game.Hist_Second_level.SoloGame_6_2" />
+        <activity android:name=".Solo_game.Hist_Second_level.SoloGame_6_3" />
+        <activity android:name=".Solo_game.Hist_Second_level.SoloGame_6_4" />
+        <activity android:name=".Solo_game.Hist_Second_level.SoloGame_6_5" />
+        <activity android:name=".Solo_game.Hist_Third_level.SoloGame_7_1" />
+        <activity android:name=".Solo_game.Hist_Third_level.SoloGame_7_2" />
+        <activity android:name=".Solo_game.Hist_Third_level.SoloGame_7_3" />
+        <activity android:name=".Solo_game.Hist_Third_level.SoloGame_7_4" />
+        <activity android:name=".Solo_game.Hist_Third_level.SoloGame_7_5" />
+        <activity android:name=".Solo_game.Hist_Fourth_level.SoloGame_8_1" />
+        <activity android:name=".Solo_game.Hist_Fourth_level.SoloGame_8_2" />
+        <activity android:name=".Solo_game.Hist_Fourth_level.SoloGame_8_3" />
+        <activity android:name=".Solo_game.Hist_Fourth_level.SoloGame_8_4" />
+        <activity android:name=".Solo_game.Hist_Fourth_level.SoloGame_8_5" />
+        <activity android:name=".Long_game.Long_game_first" />
+        <activity android:name=".Long_game.Long_game_first.SoloGame_long1_1" />
+        <activity android:name=".Long_game.Long_game_first.SoloGame_long1_2" />
+        <activity android:name=".Long_game.Long_game_first.SoloGame_long1_3" />
+        <activity android:name=".Long_game.Long_game_first.SoloGame_long1_4" />
+        <activity android:name=".Long_game.Long_game_first.SoloGame_long1_5" />
+        <activity android:name=".Long_game.Long_game" />
+
+        <service android:enabled="true" android:name=".Sett.mus_serv.Music_Service" />
+        <service android:name=".Sett.mus_serv.Music_Service2" />
+        <service android:name=".Sett.mus_serv.Music_Service3" />
+        <service android:name=".Sett.mus_serv.Music_Service4" />
+        <service android:name=".Sett.mus_serv.Music_Service5" />
+        <service android:name=".Sett.mus_serv.Music_Service6" />
+        <service android:name=".Sett.mus_serv.Music_Service7" />
+    </application>
+
+</manifest>

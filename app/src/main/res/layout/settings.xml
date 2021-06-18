@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFDFC">
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/toolbar" />
+
+    <include
+
+        android:id="@+id/include6"
+        layout="@layout/user_menu_toolbar3" />
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="230dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/new_but4"
+        android:gravity="center"
+        android:textColor="#FF3A3939"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/include6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="359dp"
+        android:layout_height="493dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/frame_color"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/music_switch"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                app:thumbTint="#FF3A3939" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="244dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0 очков"
+                android:textColor="#FF3A3939"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/frame_color"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/music_switch2"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:visibility="gone"
+                app:thumbTint="#FF3A3939" />
+
+            <ImageButton
+                android:id="@+id/error_button2"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#FFFAF7F6"
+                android:visibility="visible"
+                app:srcCompat="@android:drawable/ic_delete" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="244dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="10 очков"
+                android:textColor="#FF3A3939"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/frame_color"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/music_switch3"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:visibility="gone"
+                app:thumbTint="#FF3A3939" />
+
+            <ImageButton
+                android:id="@+id/error_button3"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#FFFAF7F6"
+                android:visibility="visible"
+                app:srcCompat="@android:drawable/ic_delete" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="244dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="20 очков"
+                android:textColor="#FF3A3939"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/frame_color"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/error_button4"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#FFFAF7F6"
+                android:visibility="visible"
+                app:srcCompat="@android:drawable/ic_delete" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/music_switch4"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:visibility="gone"
+                app:thumbTint="#FF3A3939" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="244dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="25 очков"
+                android:textColor="#FF3A3939"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/frame_color"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/error_button5"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#FFFAF7F6"
+                android:visibility="visible"
+                app:srcCompat="@android:drawable/ic_delete" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/music_switch5"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:visibility="gone"
+                app:thumbTint="#FF3A3939" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="244dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="30 очков"
+                android:textColor="#FF3A3939"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/frame_color"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/error_button6"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="#FFFAF7F6"
+                android:visibility="visible"
+                app:srcCompat="@android:drawable/ic_delete" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/music_switch6"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:visibility="gone"
+                app:thumbTint="#FF3A3939" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="244dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="35 очков"
+                android:textColor="#FF3A3939"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/frame_color"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <ImageButton
+                android:id="@+id/error_button7"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:layout_weight="0"
+                android:background="#FFFAF7F6"
+                android:visibility="visible"
+                app:srcCompat="@android:drawable/ic_delete" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/music_switch7"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:visibility="gone"
+                app:thumbTint="#FF3A3939" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="244dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="45 очков"
+                android:textColor="#FF3A3939"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

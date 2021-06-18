@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "544068340551",
+    "firebase_url": "https://pril-ea774-default-rtdb.firebaseio.com",
+    "project_id": "pril-ea774",
+    "storage_bucket": "pril-ea774.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544068340551:android:3b2867220389b16483da62",
+        "android_client_info": {
+          "package_name": "com.example.pril"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544068340551-tcdhi2o9rgsrr6llcih71jhfhj7p73nh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pril",
+            "certificate_hash": "5f9f5d06b63f0547ab1663294156008ba26fb91a"
+          }
+        },
+        {
+          "client_id": "544068340551-q6pedqcuk62kjtce7nbhirjq6eppcbqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPXz7RrToU-fmVfzzn6GVq_n2RhRsy1aY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544068340551-q6pedqcuk62kjtce7nbhirjq6eppcbqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
