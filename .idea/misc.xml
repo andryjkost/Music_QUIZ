@@ -3,18 +3,29 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/but_new_3.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/circle3.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/fast_game.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/frame_color.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/ic_baseline_perm_device_information_24.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/ic_outline_info_24.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/kub.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/kub1.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/kub2.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/kub3.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/line.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/log_out_menu.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/long_game.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/music_toolbar.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/music_toolbar2.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/new_but.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/new_but1.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/new_but2.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/new_but3.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/new_but4.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/progress_toolbar.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/progress_toolbar1.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/vert_line_1.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/vert_line_2.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/drawable/vert_line_3.xml" value="0.18055555555555555" />
@@ -22,10 +33,30 @@
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/activity_main.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/custom_toast.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/login_layout.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/long_game_menu.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/menu_activity.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/music_level_1_1.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/music_level_1_2.xml" value="0.2" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/music_level_1_3.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/myprogress.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/recycler_v.xml" value="0.4" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/settings.xml" value="0.176" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_3_1.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_3_2.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_3_3.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_3_4.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_info.xml" value="0.176" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_itog.xml" value="0.152" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_long1_1.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_zero.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/toolbar.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/toolbar_arrow.xml" value="0.1793478260869565" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/user_menu_toolbar.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/user_menu_toolbar3.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/user_menu_toolbar_1.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/user_menu_toolbar_2.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/user_menu_toolbar_4.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/users_list_item.xml" value="0.1793478260869565" />
       </map>
     </option>
   </component>

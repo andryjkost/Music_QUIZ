@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFDFC">
+    android:background="#FF8C00">
+
+
 
     <Button
         android:id="@+id/long_game_first"
@@ -12,6 +14,7 @@
         android:layout_height="94dp"
         android:background="@drawable/new_but2"
         android:text="1"
+        android:textColor="#FF8C00"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,16 +24,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.118" />
 
+
     <include
+
         android:id="@+id/include2"
-        layout="@layout/toolbar" />
-
-    <include
-
-        android:id="@+id/include6"
         layout="@layout/user_menu_toolbar_4"
+        android:background="#FF8C00"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="0dp" />
+    <include
+        android:id="@+id/include6"
+        layout="@layout/toolbar_arrow" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

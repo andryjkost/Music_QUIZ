@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FF8C00">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
             app:layout_constraintEnd_toStartOf="@+id/solo_big_tul"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/fast_game" />
+            app:srcCompat="@drawable/fast_game2" />
 
         <ImageButton
             android:id="@+id/solo_big_tul"
@@ -43,7 +43,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/solo_tul"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/long_game" />
+            app:srcCompat="@drawable/long_game2" />
 
         <ImageButton
             android:id="@+id/prog_tul"
@@ -57,7 +57,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/solo_big_tul"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/progress_toolbar" />
+            app:srcCompat="@drawable/progress_toolbar1" />
 
         <ImageButton
             android:id="@+id/mus_tul"
@@ -67,11 +67,11 @@
             android:layout_marginLeft="4dp"
             android:layout_marginTop="1dp"
             android:layout_marginBottom="1dp"
-            android:background="#FFFBE061"
+            android:background="#FF8C00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/prog_tul"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/music_toolbar2" />
+            app:srcCompat="@drawable/music_toolbar" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
