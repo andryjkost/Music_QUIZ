@@ -33,6 +33,8 @@ public class SoloGame_menu extends AppCompatActivity {
     Button Solo_second_b1;
     Button Solo_third_b1;
     Button Solo_for_b1;
+    Button music_b_1;
+    Button music_b_2;
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +51,9 @@ public class SoloGame_menu extends AppCompatActivity {
         Solo_second_b1 = findViewById(R.id.Solo_second_b1);
         Solo_third_b1 = findViewById(R.id.Solo_third_b1);
         Solo_for_b1 = findViewById(R.id.Solo_for_b1);
+        music_b_1 = findViewById(R.id.music_1);
+        music_b_2 = findViewById(R.id.music_2);
+
 
 
         //возврат в меню
@@ -63,7 +68,24 @@ public class SoloGame_menu extends AppCompatActivity {
 
             }
         });
-
+        music_b_1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SoloGame_menu.this, SoloGame_zero.class);
+                intent.putExtra("VAR", "9");
+                startActivity(intent);
+                finishAffinity();
+            }
+        });
+        music_b_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SoloGame_menu.this, SoloGame_zero.class);
+                intent.putExtra("VAR", "10");
+                startActivity(intent);
+                finishAffinity();
+            }
+        });
         Solo_second_b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -160,15 +182,7 @@ public class SoloGame_menu extends AppCompatActivity {
                 finishAffinity();
             }
         });
-        //музыка
-        mus_tool.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(SoloGame_menu.this, Settings.class);
-                startActivity(intent);
-                finishAffinity();
-            }
-        });
+
 
     }
     private void toolbar() {

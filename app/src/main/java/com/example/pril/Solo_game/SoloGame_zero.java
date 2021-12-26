@@ -17,8 +17,10 @@ import com.example.pril.Solo_game.Hist_First_level.SoloGame_5_1;
 import com.example.pril.Solo_game.Hist_Fourth_level.SoloGame_8_1;
 import com.example.pril.Solo_game.Hist_Second_level.SoloGame_6_1;
 import com.example.pril.Solo_game.Hist_Third_level.SoloGame_7_1;
+import com.example.pril.Solo_game.Music_level_2.Music_level_2_1;
 import com.example.pril.Solo_game.Second_level.SoloGame_second_1;
 import com.example.pril.Solo_game.Third_level.SoloGame_3_1;
+import com.example.pril.Solo_game.music_level_1.Music_level_1_1;
 
 //отсчет перед началом уровня
 public class SoloGame_zero extends AppCompatActivity {
@@ -106,6 +108,18 @@ public class SoloGame_zero extends AppCompatActivity {
                         }
                         else if (var.equals("101")){
                             Intent intent1 = new Intent(SoloGame_zero.this, SoloGame_long1_1.class);
+                            startActivity(intent1);
+                            finishAffinity();
+
+                        }
+                        else if (var.equals("9")){
+                            Intent intent1 = new Intent(SoloGame_zero.this, Music_level_1_1.class);
+                            startActivity(intent1);
+                            finishAffinity();
+
+                        }
+                        else if (var.equals("10")){
+                            Intent intent1 = new Intent(SoloGame_zero.this, Music_level_2_1.class);
                             startActivity(intent1);
                             finishAffinity();
 

@@ -124,15 +124,7 @@ public class MyProgress extends AppCompatActivity {
         //прогресс
         ///
 
-        //музыка
-        mus_tool.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MyProgress.this, Settings.class);
-                startActivity(intent);
-                finishAffinity();
-            }
-        });
+
 
     }
 

@@ -143,15 +143,7 @@ public class Recycler_v extends AppCompatActivity {
         //прогресс
         ///
 
-        //музыка
-        mus_tool.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Recycler_v.this, Settings.class);
-                startActivity(intent);
-                finishAffinity();
-            }
-        });
+
 
     }
 

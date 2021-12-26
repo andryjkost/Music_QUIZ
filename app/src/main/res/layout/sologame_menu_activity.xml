@@ -32,12 +32,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/line"
+            android:fontFamily="@font/gothampro"
             android:gravity="center"
             android:padding="7dp"
             android:text="История"
             android:textColor="#FF3A3939"
-            android:textSize="30sp"
-            android:textStyle="bold" />
+            android:textSize="30sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -215,6 +215,110 @@
                 android:textStyle="bold" />
 
         </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_music"
+        android:layout_width="370dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="364dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:id="@+id/music_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/line"
+            android:gravity="center"
+            android:padding="7dp"
+            android:text="Музыка"
+            android:textColor="#FF3A3939"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/linear_music_child"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/music_1"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/new_but1"
+                android:text="1"
+                android:textColor="#FF3A3939"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/music_t1"
+                android:layout_width="22dp"
+                android:layout_height="70dp"
+                android:layout_weight="0"
+                tools:layout_editor_absoluteX="-10dp"
+                tools:layout_editor_absoluteY="272dp" />
+
+            <Button
+                android:id="@+id/music_2"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@drawable/new_but1"
+                android:text="2"
+                android:textColor="#FF3A3939"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/music_t2"
+                android:layout_width="22dp"
+                android:layout_height="70dp"
+                android:layout_weight="0"
+                tools:layout_editor_absoluteX="-10dp"
+                tools:layout_editor_absoluteY="272dp" />
+
+            <Button
+                android:id="@+id/music_3"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@drawable/new_but1"
+                android:text="3"
+                android:textColor="#FF3A3939"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/music_t3"
+                android:layout_width="22dp"
+                android:layout_height="70dp"
+                android:layout_weight="0"
+                tools:layout_editor_absoluteX="-10dp"
+                tools:layout_editor_absoluteY="272dp" />
+
+            <Button
+                android:id="@+id/music_4"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@drawable/new_but1"
+                android:text="4"
+                android:textColor="#FF3A3939"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

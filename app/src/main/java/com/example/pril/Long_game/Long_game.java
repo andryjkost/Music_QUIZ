@@ -64,15 +64,7 @@ public class Long_game extends AppCompatActivity {
                 finishAffinity();
             }
         });
-        //музыка
-        mus_tool.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Long_game.this, Settings.class);
-                startActivity(intent);
-                finishAffinity();
-            }
-        });
+        
 
     }
     private void toolbar() {
