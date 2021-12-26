@@ -88,6 +88,10 @@
         <activity android:name=".Solo_game.Music_level_3.Music_level_3_4" />
         <activity android:name=".Solo_game.Music_level_3.Music_level_3_5" />
         <activity android:name=".Solo_game.Music_level_4.Music_level_4_1" />
+        <activity android:name=".Solo_game.Music_level_4.Music_level_4_2" />
+        <activity android:name=".Solo_game.Music_level_4.Music_level_4_3" />
+        <activity android:name=".Solo_game.Music_level_4.Music_level_4_4" />
+        <activity android:name=".Solo_game.Music_level_4.Music_level_4_5" />
 
         <service android:enabled="true" android:name=".Sett.mus_serv.Music_Service" />
         <service android:name=".Sett.mus_serv.Music_Service2" />
@@ -111,6 +115,11 @@
         <service android:name=".Solo_game.Music_level_service.Music_level_service_13" />
         <service android:name=".Solo_game.Music_level_service.Music_level_service_14" />
         <service android:name=".Solo_game.Music_level_service.Music_level_service_15" />
+        <service android:name=".Solo_game.Music_level_service.Music_level_service_17" />
+        <service android:name=".Solo_game.Music_level_service.Music_level_service_16" />
+        <service android:name=".Solo_game.Music_level_service.Music_level_service_18" />
+        <service android:name=".Solo_game.Music_level_service.Music_level_service_19" />
+        <service android:name=".Solo_game.Music_level_service.Music_level_service_20" />
     </application>
 
 </manifest>

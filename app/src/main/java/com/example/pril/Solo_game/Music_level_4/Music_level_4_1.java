@@ -14,8 +14,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.pril.R;
-import com.example.pril.Solo_game.Music_level_2.Music_level_2_2;
-import com.example.pril.Solo_game.Music_level_service.Music_level_service_6;
+import com.example.pril.Solo_game.Music_level_service.Music_level_service_16;
 import com.example.pril.Solo_game.SoloGame_menu;
 
 public class Music_level_4_1 extends AppCompatActivity {
@@ -36,7 +35,7 @@ public class Music_level_4_1 extends AppCompatActivity {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.music_level_2_1);
+        setContentView(R.layout.music_level_4_1);
         //Связываем элементы по id
         tv_timer = findViewById(R.id.tv_timer);
         tv_quest = findViewById(R.id.tv_quest);
@@ -47,7 +46,7 @@ public class Music_level_4_1 extends AppCompatActivity {
         b3 = findViewById(R.id.b3);
         b4 = findViewById(R.id.b4);
         b_next = findViewById(R.id.b_next);
-        Intent start_music = new Intent(Music_level_4_1.this, Music_level_service_6.class);
+        Intent start_music = new Intent(Music_level_4_1.this, Music_level_service_16.class);
         startService(start_music);
         //
         toolbar1();
@@ -119,8 +118,8 @@ public class Music_level_4_1 extends AppCompatActivity {
             public void onClick(View v) {
                 count = 20;
                 is_started = false;
-                stopService(new Intent(Music_level_4_1.this, Music_level_service_6.class));
-                Intent intent = new Intent(Music_level_4_1.this,  Music_level_2_2.class);
+                stopService(new Intent(Music_level_4_1.this, Music_level_service_16.class));
+                Intent intent = new Intent(Music_level_4_1.this,  Music_level_4_2.class);
                 intent.putExtra("POINTS",String.valueOf(points));
                 startActivity(intent);
                 finishAffinity();
@@ -160,9 +159,9 @@ public class Music_level_4_1 extends AppCompatActivity {
                     }
                     if (count==0){
                         is_started = false;
-                        Intent intent = new Intent(Music_level_4_1.this,  Music_level_2_2.class);
+                        Intent intent = new Intent(Music_level_4_1.this,  Music_level_4_2.class);
                         intent.putExtra("POINTS",String.valueOf(points));
-                        stopService(new Intent(Music_level_4_1.this, Music_level_service_6.class));
+                        stopService(new Intent(Music_level_4_1.this, Music_level_service_16.class));
                         startActivity(intent);
                         finishAffinity();
 
@@ -192,7 +191,7 @@ public class Music_level_4_1 extends AppCompatActivity {
             public void onClick(View v) {
                 count = 20;
                 is_started = false;
-                stopService(new Intent(Music_level_4_1.this, Music_level_service_6.class));
+                stopService(new Intent(Music_level_4_1.this, Music_level_service_16.class));
                 Intent intent = new Intent(Music_level_4_1.this, SoloGame_menu.class);
                 startActivity(intent);
                 finishAffinity();
