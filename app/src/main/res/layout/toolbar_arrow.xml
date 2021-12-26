@@ -6,7 +6,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFFFFDFC">
+        android:background="#FF8C00">
 
         <ImageView
             android:id="@+id/left_icon"

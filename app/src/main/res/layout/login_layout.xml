@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFA7B70">
+    android:background="#FF8C00">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="380dp"
@@ -18,8 +18,10 @@
         android:background="@drawable/frame_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
 
         <CheckBox
             android:id="@+id/eye"
@@ -46,7 +48,7 @@
             android:layout_marginEnd="54dp"
             android:layout_marginRight="54dp"
             android:layout_marginBottom="27dp"
-            android:background="@drawable/new_but"
+            android:background="#FF8C00"
             android:onClick="OnClickSignUp"
             android:text="Зарегистрироваться"
             android:textColor="#3A3939"
@@ -94,7 +96,7 @@
             android:layout_marginTop="6dp"
             android:layout_marginEnd="54dp"
             android:layout_marginRight="54dp"
-            android:background="@drawable/new_but"
+            android:background="#FF8C00"
             android:onClick="OnClickSignIn"
             android:text="Войти"
             android:textColor="#3A3939"
@@ -149,5 +151,13 @@
             app:layout_constraintTop_toBottomOf="@+id/edLogin" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="226dp"
+        android:layout_height="165dp"
+        app:srcCompat="@drawable/main_menu"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
