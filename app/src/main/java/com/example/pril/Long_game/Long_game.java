@@ -79,12 +79,7 @@ public class Long_game extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        right_icon.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(Long_game.this, "Сложные задания без ограничений по времени", Toast.LENGTH_LONG).show();
-            }
-        });
+
 
 
     }
