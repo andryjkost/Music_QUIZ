@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFDFC">
+    android:background="#FF8C00">
 
     <include
         android:id="@+id/toolbar"
@@ -37,14 +37,15 @@
         android:layout_width="131dp"
         android:layout_height="49dp"
         android:layout_marginBottom="75dp"
+        android:background="#FF8C00"
         android:gravity="center"
         android:textColor="#FF3A3939"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tv_quest"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
 
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/toolbar"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
@@ -86,6 +87,7 @@
             android:layout_height="59dp"
             android:background="@drawable/new_but1"
             android:clickable="true"
+            android:fontFamily="@font/gothampro_bold"
             android:gravity="center"
             android:text="1700"
             android:textColor="#FF3A3939"
@@ -95,6 +97,7 @@
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
+            android:background="#FF8C00"
             android:layout_height="32dp" />
 
         <RadioButton
@@ -102,6 +105,7 @@
             android:layout_width="match_parent"
             android:layout_height="59dp"
             android:background="@drawable/new_but1"
+            android:fontFamily="@font/gothampro_bold"
             android:gravity="center"
             android:text="1699"
             android:textColor="#FF3A3939"
@@ -111,6 +115,7 @@
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
+            android:background="#FF8C00"
             android:layout_height="32dp" />
 
         <RadioButton
@@ -118,6 +123,7 @@
             android:layout_width="match_parent"
             android:layout_height="59dp"
             android:background="@drawable/new_but1"
+            android:fontFamily="@font/gothampro_bold"
             android:gravity="center"
             android:text="1721"
             android:textColor="#FF3A3939"
@@ -127,6 +133,7 @@
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
+            android:background="#FF8C00"
             android:layout_height="32dp" />
 
         <RadioButton
@@ -134,6 +141,7 @@
             android:layout_width="match_parent"
             android:layout_height="59dp"
             android:background="@drawable/new_but1"
+            android:fontFamily="@font/gothampro_bold"
             android:gravity="center"
             android:text="1720"
             android:textColor="#FF3A3939"
@@ -177,6 +185,7 @@
         android:layout_height="70dp"
         android:layout_marginBottom="8dp"
         android:background="@drawable/new_but1"
+        android:fontFamily="@font/gothampro_bold"
         android:text="Отправить"
         android:textColor="#FF3A3939"
         android:textSize="24sp"

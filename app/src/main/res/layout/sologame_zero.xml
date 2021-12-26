@@ -19,7 +19,7 @@
         android:layout_marginRight="114dp"
         android:layout_marginBottom="400dp"
         android:gravity="center"
-        android:textColor="#FFFB8984"
+        android:textColor="#D2691E"
         android:textSize="100sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

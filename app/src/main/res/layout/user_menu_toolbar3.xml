@@ -59,19 +59,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/progress_toolbar1" />
 
-        <ImageButton
-            android:id="@+id/mus_tul"
-            android:layout_width="93dp"
-            android:layout_height="85dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginLeft="4dp"
-            android:layout_marginTop="1dp"
-            android:layout_marginBottom="1dp"
-            android:background="#FF8C00"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/prog_tul"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/music_toolbar" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

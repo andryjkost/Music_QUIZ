@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFDFC">
+    android:background="#FF8C00">
 
     <include
         android:id="@+id/toolbar"
@@ -33,10 +33,11 @@
         android:layout_width="131dp"
         android:layout_height="49dp"
         android:layout_marginBottom="75dp"
+        android:background="#FF8C00"
         android:gravity="center"
         android:textColor="#FF3A3939"
-        android:textSize="24sp"
 
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/tv_quest"
         app:layout_constraintEnd_toEndOf="parent"
@@ -79,11 +80,13 @@
 
     <EditText
         android:id="@+id/ans"
-        android:layout_width="356dp"
-        android:layout_height="127dp"
+        android:layout_width="379dp"
+        android:layout_height="123dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="180dp"
+        android:background="#D2691E"
         android:ems="10"
+        android:fontFamily="@font/gothampro_bold"
         android:gravity="center"
         android:hint="Введите ответ одним словом"
         android:inputType="textPersonName"
@@ -127,6 +130,7 @@
         android:layout_marginEnd="126dp"
         android:layout_marginRight="126dp"
         android:background="@drawable/new_but1"
+        android:fontFamily="@font/gothampro_bold"
         android:text="Отправить"
         android:textColor="#FF3A3939"
         android:textSize="24sp"

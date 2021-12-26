@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFDFC">
+    android:background="#FF8C00">
 
     <include
         android:id="@+id/include"
@@ -33,6 +33,7 @@
         android:layout_width="131dp"
         android:layout_height="49dp"
         android:layout_marginBottom="75dp"
+        android:background="#FF8C00"
         android:gravity="center"
         android:textColor="#FF3A3939"
         android:textSize="24sp"
@@ -64,6 +65,7 @@
             android:layout_width="match_parent"
             android:layout_height="59dp"
             android:background="@drawable/new_but1"
+            android:fontFamily="@font/gothampro_bold"
             android:text="Александр III"
             android:textColor="#FF3A3939"
             android:textSize="24sp"
@@ -73,6 +75,8 @@
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
+            android:background="#FF8C00"
+
             android:layout_height="32dp" />
 
         <Button
@@ -80,6 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="59dp"
             android:background="@drawable/new_but1"
+            android:fontFamily="@font/gothampro_bold"
             android:text="аЛЕКСАНДР II"
             android:textColor="#FF3A3939"
             android:textSize="24sp"
@@ -89,6 +94,8 @@
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
+            android:background="#FF8C00"
+
             android:layout_height="32dp" />
 
         <Button
@@ -96,6 +103,7 @@
             android:layout_width="match_parent"
             android:layout_height="59dp"
             android:background="@drawable/new_but1"
+            android:fontFamily="@font/gothampro_bold"
             android:text="Николай II"
             android:textColor="#FF3A3939"
             android:textSize="24sp"
@@ -105,6 +113,8 @@
         <TextView
             android:id="@+id/textView7"
             android:layout_width="match_parent"
+            android:background="#FF8C00"
+
             android:layout_height="32dp" />
 
         <Button
@@ -112,6 +122,7 @@
             android:layout_width="match_parent"
             android:layout_height="59dp"
             android:background="@drawable/new_but1"
+            android:fontFamily="@font/gothampro_bold"
             android:text="Александр I"
             android:textColor="#FF3A3939"
             android:textSize="24sp"
@@ -154,7 +165,7 @@
         android:layout_width="175dp"
         android:layout_height="122dp"
         android:layout_marginTop="1dp"
-        android:background="@drawable/new_but1"
+        android:background="#FF8C00"
         android:src="@drawable/im_6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

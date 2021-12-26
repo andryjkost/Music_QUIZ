@@ -14,7 +14,7 @@
         android:layout_height="94dp"
         android:background="@drawable/new_but2"
         android:text="1"
-        android:textColor="#FF8C00"
+        android:textColor="#000000"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
