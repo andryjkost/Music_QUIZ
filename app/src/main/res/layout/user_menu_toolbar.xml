@@ -16,10 +16,10 @@
 
         <ImageButton
             android:id="@+id/solo_tul"
-            android:layout_width="108dp"
-            android:layout_height="81dp"
-            android:layout_marginStart="2dp"
-            android:layout_marginLeft="2dp"
+            android:layout_width="90dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
             android:layout_marginTop="1dp"
             android:layout_marginEnd="4dp"
             android:layout_marginRight="4dp"
@@ -34,7 +34,7 @@
 
         <ImageButton
             android:id="@+id/solo_big_tul"
-            android:layout_width="93dp"
+            android:layout_width="95dp"
             android:layout_height="85dp"
             android:layout_marginStart="3dp"
             android:layout_marginLeft="3dp"
@@ -48,7 +48,7 @@
 
         <ImageButton
             android:id="@+id/prog_tul"
-            android:layout_width="93dp"
+            android:layout_width="95dp"
             android:layout_height="85dp"
             android:layout_marginStart="3dp"
             android:layout_marginLeft="3dp"
@@ -62,16 +62,17 @@
 
         <ImageButton
             android:id="@+id/mus_tul"
-            android:layout_width="103dp"
-            android:layout_height="93dp"
-            android:layout_marginStart="4dp"
-            android:layout_marginLeft="4dp"
+            android:layout_width="95dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
             android:layout_marginTop="1dp"
             android:layout_marginBottom="1dp"
             android:background="@drawable/kub3"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/prog_tul"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.428"
             app:srcCompat="@drawable/music_toolbar2" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 

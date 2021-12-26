@@ -180,7 +180,7 @@ public class Music_level_2_5 extends AppCompatActivity {
                         Intent intent = new Intent(Music_level_2_5.this, SoloGame_itog.class);
                         intent.putExtra("POINTS", String.valueOf(points));
                         intent.putExtra("GAME", "МУЗЫКА");
-                        intent.putExtra("LEVEL", "1");;
+                        intent.putExtra("LEVEL", "2");;
                         stopService(new Intent(Music_level_2_5.this, Music_level_service_10.class));
                         startActivity(intent);
                         finishAffinity();

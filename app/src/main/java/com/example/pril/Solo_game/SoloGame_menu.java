@@ -35,6 +35,8 @@ public class SoloGame_menu extends AppCompatActivity {
     Button Solo_for_b1;
     Button music_b_1;
     Button music_b_2;
+    Button music_b_3;
+    Button music_b_4;
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,6 +55,8 @@ public class SoloGame_menu extends AppCompatActivity {
         Solo_for_b1 = findViewById(R.id.Solo_for_b1);
         music_b_1 = findViewById(R.id.music_1);
         music_b_2 = findViewById(R.id.music_2);
+        music_b_3 = findViewById(R.id.music_3);
+        music_b_4 = findViewById(R.id.music_4);
 
 
 
@@ -73,6 +77,24 @@ public class SoloGame_menu extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(SoloGame_menu.this, SoloGame_zero.class);
                 intent.putExtra("VAR", "9");
+                startActivity(intent);
+                finishAffinity();
+            }
+        });
+        music_b_4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SoloGame_menu.this, SoloGame_zero.class);
+                intent.putExtra("VAR", "12");
+                startActivity(intent);
+                finishAffinity();
+            }
+        });
+        music_b_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SoloGame_menu.this, SoloGame_zero.class);
+                intent.putExtra("VAR", "11");
                 startActivity(intent);
                 finishAffinity();
             }

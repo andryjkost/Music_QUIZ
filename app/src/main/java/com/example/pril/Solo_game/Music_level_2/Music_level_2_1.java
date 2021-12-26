@@ -199,7 +199,7 @@ public class Music_level_2_1 extends AppCompatActivity {
                 count = 20;
                 is_started = false;
                 stopService(new Intent(Music_level_2_1.this, Music_level_service_6.class));
-                Intent intent = new Intent(Music_level_2_1.this, Music_level_1_2.class);
+                Intent intent = new Intent(Music_level_2_1.this, SoloGame_menu.class);
                 startActivity(intent);
                 finishAffinity();
             }
