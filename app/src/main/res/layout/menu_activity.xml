@@ -10,8 +10,8 @@
         android:id="@+id/include3"
         layout="@layout/user_menu_toolbar"
         android:background="#FF8C00"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp" />
 
     <ImageButton
         android:id="@+id/log_out1"
@@ -30,11 +30,11 @@
         android:id="@+id/textView4"
         android:layout_width="43dp"
         android:layout_height="472dp"
-        android:layout_marginBottom="88dp"
+        android:layout_marginBottom="84dp"
         android:background="@drawable/vert_line_1"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/textView12"
-        app:layout_constraintHorizontal_bias="0.321"
+        app:layout_constraintEnd_toEndOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.166"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -49,6 +49,7 @@
         android:background="@drawable/vert_line_2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/textView15"
+        app:layout_constraintHorizontal_bias="0.609"
         app:layout_constraintStart_toEndOf="@+id/textView4" />
 
     <TextView
@@ -59,23 +60,23 @@
         android:background="@drawable/vert_line_3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.636"
+        app:layout_constraintHorizontal_bias="0.638"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView16"
         android:layout_width="42dp"
         android:layout_height="221dp"
-        android:layout_marginBottom="92dp"
+        android:layout_marginBottom="88dp"
         android:background="@drawable/vert_line_4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.674"
+        app:layout_constraintHorizontal_bias="0.67"
         app:layout_constraintStart_toEndOf="@+id/textView15" />
 
     <TextView
         android:id="@+id/textView17"
-        style="@style/TextAppearance.AppCompat.Display3"
+        style="@font/gothampro_bold"
         android:layout_width="110dp"
         android:layout_height="78dp"
         android:layout_marginStart="1dp"
@@ -83,6 +84,7 @@
         android:background="@drawable/new_but1"
         android:gravity="center"
         android:text="Быстрая игра"
+        android:textAppearance="@font/gothampro_bold.ttf"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -99,12 +101,13 @@
         android:background="@drawable/new_but1"
         android:gravity="center"
         android:text="Долгая игра"
+        android:textAppearance="@font/gothampro_bold.ttf"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView12"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintHorizontal_bias="0.315"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -115,12 +118,13 @@
         android:background="@drawable/new_but1"
         android:gravity="center"
         android:text="Прогресс"
+        android:textAppearance="@font/gothampro_bold.ttf"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView15"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintHorizontal_bias="0.601"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -128,18 +132,19 @@
         style="@style/TextAppearance.AppCompat.Display3"
         android:layout_width="110dp"
         android:layout_height="78dp"
-        android:layout_marginStart="300dp"
-        android:layout_marginLeft="300dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginLeft="272dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/new_but1"
         android:gravity="center"
         android:text="Фоновая Музыка"
+        android:textAppearance="@font/gothampro_bold.ttf"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView16"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/include3"
-        app:layout_constraintVertical_bias="0.987" />
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

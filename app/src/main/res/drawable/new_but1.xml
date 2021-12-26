@@ -17,8 +17,8 @@
     <item>
         <shape android:shape="rectangle"  >
             <corners android:radius="15dip" />
-            <stroke android:width="6dip" android:color="#352E2F" />
-            <gradient android:angle="90" android:startColor="#352E2F" android:endColor="#352E2F" />
+            <stroke android:width="6dip" android:color="#D2691E" />
+            <gradient android:angle="90" android:startColor="#D2691E" android:endColor="#D2691E" />
         </shape>
     </item>
 </selector>
