@@ -166,7 +166,7 @@
         android:layout_width="175dp"
         android:layout_height="122dp"
         android:layout_marginTop="1dp"
-        android:background='#FF8C00" '
+        android:background="#FF8C00"
         android:src="@drawable/image_3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

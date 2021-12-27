@@ -101,7 +101,7 @@ public class MyProgress extends AppCompatActivity {
         ImageButton solo_tool = findViewById(R.id.solo_tul);
         ImageButton solo_long_tool = findViewById(R.id.solo_big_tul);
         ImageButton prog_tool = findViewById(R.id.prog_tul);
-        ImageButton mus_tool = findViewById(R.id.mus_tul);
+
 
         //быстрая игра
         solo_tool.setOnClickListener(new View.OnClickListener() {
