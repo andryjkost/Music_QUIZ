@@ -100,7 +100,7 @@
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_long1_3.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_long1_4.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_long1_5.xml" value="0.13020833333333334" />
-        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_menu_activity.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_menu_activity.xml" value="0.176" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_second_1.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_second_2.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/79875/StudioProjects/Music_Game_1/app/src/main/res/layout/sologame_second_3.xml" value="0.13020833333333334" />
@@ -164,7 +164,7 @@
       </value>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
